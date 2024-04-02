@@ -7,16 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D092ABA2BBB289300A934C7 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D092AB92BBB289300A934C7 /* UIViewController + Extension.swift */; };
 		9D7358612BB3DD5200B39158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7358602BB3DD5200B39158 /* AppDelegate.swift */; };
-		9D7358632BB3DD5200B39158 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7358622BB3DD5200B39158 /* SceneDelegate.swift */; };
-		9D7358652BB3DD5200B39158 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7358642BB3DD5200B39158 /* ViewController.swift */; };
+		9D7358652BB3DD5200B39158 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7358642BB3DD5200B39158 /* EventListViewController.swift */; };
 		9D7358682BB3DD5200B39158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7358662BB3DD5200B39158 /* Main.storyboard */; };
 		9D73586B2BB3DD5200B39158 /* Events.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D7358692BB3DD5200B39158 /* Events.xcdatamodeld */; };
 		9D73586D2BB3DD5400B39158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D73586C2BB3DD5400B39158 /* Assets.xcassets */; };
 		9D7358702BB3DD5400B39158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D73586E2BB3DD5400B39158 /* LaunchScreen.storyboard */; };
-		9D73587B2BB3DD5500B39158 /* EventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D73587A2BB3DD5500B39158 /* EventsTests.swift */; };
+		9D73587B2BB3DD5500B39158 /* EventListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D73587A2BB3DD5500B39158 /* EventListViewControllerTests.swift */; };
 		9D7358852BB3DD5500B39158 /* EventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7358842BB3DD5500B39158 /* EventsUITests.swift */; };
 		9D7358872BB3DD5500B39158 /* EventsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7358862BB3DD5500B39158 /* EventsUITestsLaunchTests.swift */; };
+		9D7358942BB3DEDC00B39158 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7358932BB3DEDC00B39158 /* Constants.swift */; };
+		9D73589C2BB3E2E400B39158 /* EventListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D73589B2BB3E2E400B39158 /* EventListModel.swift */; };
+		9D73589F2BB4458500B39158 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9D73589E2BB4458500B39158 /* SDWebImage */; };
+		9D7358A12BB4458500B39158 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9D7358A02BB4458500B39158 /* SDWebImageMapKit */; };
+		9D7358A42BB44CE800B39158 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7358A22BB44CE800B39158 /* EventTableViewCell.swift */; };
+		9D7358A52BB44CE800B39158 /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D7358A32BB44CE800B39158 /* EventTableViewCell.xib */; };
+		9D7358A82BBA9BB100B39158 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7358A72BBA9BB100B39158 /* NetworkManager.swift */; };
+		9D7358AB2BBAA47400B39158 /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7358AA2BBAA47400B39158 /* EventListViewModel.swift */; };
+		9D7358AD2BBAA5F100B39158 /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7358AC2BBAA5F100B39158 /* NetworkManagerProtocol.swift */; };
+		9DCA36472BBAF3AC009C0E18 /* EventEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA36452BBAF3AC009C0E18 /* EventEntity+CoreDataClass.swift */; };
+		9DCA36482BBAF3AC009C0E18 /* EventEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA36462BBAF3AC009C0E18 /* EventEntity+CoreDataProperties.swift */; };
+		9DCA364A2BBAF3FD009C0E18 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA36492BBAF3FD009C0E18 /* CoreDataManager.swift */; };
+		9DCA364C2BBB0C6C009C0E18 /* EventListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA364B2BBB0C6C009C0E18 /* EventListViewModelTests.swift */; };
+		9DCA36502BBB0D8E009C0E18 /* CoreDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA364F2BBB0D8E009C0E18 /* CoreDataManagerTests.swift */; };
+		9DCA36522BBB1468009C0E18 /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA36512BBB1468009C0E18 /* NetworkManagerTests.swift */; };
+		9DCA36552BBB14EA009C0E18 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA36542BBB14EA009C0E18 /* MockNetworkManager.swift */; };
+		9DCA36572BBB1801009C0E18 /* EventTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA36562BBB1801009C0E18 /* EventTableViewCellTests.swift */; };
+		9DCA365A2BBB1A4A009C0E18 /* EventsListViewController + TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA36592BBB1A4A009C0E18 /* EventsListViewController + TableView.swift */; };
+		9DCA365C2BBB1AD4009C0E18 /* EventListViewController + SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA365B2BBB1AD4009C0E18 /* EventListViewController + SearchBar.swift */; };
+		9DDE155C2BBB8FA100D4CF2B /* MockCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDE155B2BBB8FA100D4CF2B /* MockCoreDataManager.swift */; };
+		9DDE155E2BBB8FDD00D4CF2B /* CoreDataManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDE155D2BBB8FDD00D4CF2B /* CoreDataManagerProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +58,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D092AB92BBB289300A934C7 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
 		9D73585D2BB3DD5200B39158 /* Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Events.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7358602BB3DD5200B39158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D7358622BB3DD5200B39158 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9D7358642BB3DD5200B39158 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D7358642BB3DD5200B39158 /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
 		9D7358672BB3DD5200B39158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D73586A2BB3DD5200B39158 /* Events.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Events.xcdatamodel; sourceTree = "<group>"; };
 		9D73586C2BB3DD5400B39158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D73586F2BB3DD5400B39158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D7358712BB3DD5400B39158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D7358762BB3DD5500B39158 /* EventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D73587A2BB3DD5500B39158 /* EventsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTests.swift; sourceTree = "<group>"; };
+		9D73587A2BB3DD5500B39158 /* EventListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewControllerTests.swift; sourceTree = "<group>"; };
 		9D7358802BB3DD5500B39158 /* EventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7358842BB3DD5500B39158 /* EventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsUITests.swift; sourceTree = "<group>"; };
 		9D7358862BB3DD5500B39158 /* EventsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D7358932BB3DEDC00B39158 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9D73589B2BB3E2E400B39158 /* EventListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListModel.swift; sourceTree = "<group>"; };
+		9D7358A22BB44CE800B39158 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		9D7358A32BB44CE800B39158 /* EventTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventTableViewCell.xib; sourceTree = "<group>"; };
+		9D7358A72BBA9BB100B39158 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9D7358AA2BBAA47400B39158 /* EventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
+		9D7358AC2BBAA5F100B39158 /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
+		9DCA36452BBAF3AC009C0E18 /* EventEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EventEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9DCA36462BBAF3AC009C0E18 /* EventEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EventEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9DCA36492BBAF3FD009C0E18 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		9DCA364B2BBB0C6C009C0E18 /* EventListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModelTests.swift; sourceTree = "<group>"; };
+		9DCA364F2BBB0D8E009C0E18 /* CoreDataManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManagerTests.swift; sourceTree = "<group>"; };
+		9DCA36512BBB1468009C0E18 /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
+		9DCA36542BBB14EA009C0E18 /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		9DCA36562BBB1801009C0E18 /* EventTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCellTests.swift; sourceTree = "<group>"; };
+		9DCA36592BBB1A4A009C0E18 /* EventsListViewController + TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EventsListViewController + TableView.swift"; sourceTree = "<group>"; };
+		9DCA365B2BBB1AD4009C0E18 /* EventListViewController + SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EventListViewController + SearchBar.swift"; sourceTree = "<group>"; };
+		9DDE155B2BBB8FA100D4CF2B /* MockCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCoreDataManager.swift; sourceTree = "<group>"; };
+		9DDE155D2BBB8FDD00D4CF2B /* CoreDataManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManagerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D7358A12BB4458500B39158 /* SDWebImageMapKit in Frameworks */,
+				9D73589F2BB4458500B39158 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,13 +144,14 @@
 			isa = PBXGroup;
 			children = (
 				9D7358602BB3DD5200B39158 /* AppDelegate.swift */,
-				9D7358622BB3DD5200B39158 /* SceneDelegate.swift */,
-				9D7358642BB3DD5200B39158 /* ViewController.swift */,
-				9D7358662BB3DD5200B39158 /* Main.storyboard */,
+				9D7358952BB3E0D800B39158 /* EventCell */,
+				9DCA36532BBB14DD009C0E18 /* Mocks */,
+				9D7358A92BBAA45B00B39158 /* EventList */,
+				9D7358A62BBA9BA600B39158 /* Utils */,
+				9DCA36582BBB18B9009C0E18 /* Persistance */,
 				9D73586C2BB3DD5400B39158 /* Assets.xcassets */,
 				9D73586E2BB3DD5400B39158 /* LaunchScreen.storyboard */,
 				9D7358712BB3DD5400B39158 /* Info.plist */,
-				9D7358692BB3DD5200B39158 /* Events.xcdatamodeld */,
 			);
 			path = Events;
 			sourceTree = "<group>";
@@ -116,7 +159,11 @@
 		9D7358792BB3DD5500B39158 /* EventsTests */ = {
 			isa = PBXGroup;
 			children = (
-				9D73587A2BB3DD5500B39158 /* EventsTests.swift */,
+				9D73587A2BB3DD5500B39158 /* EventListViewControllerTests.swift */,
+				9DCA364B2BBB0C6C009C0E18 /* EventListViewModelTests.swift */,
+				9DCA364F2BBB0D8E009C0E18 /* CoreDataManagerTests.swift */,
+				9DCA36512BBB1468009C0E18 /* NetworkManagerTests.swift */,
+				9DCA36562BBB1801009C0E18 /* EventTableViewCellTests.swift */,
 			);
 			path = EventsTests;
 			sourceTree = "<group>";
@@ -128,6 +175,60 @@
 				9D7358862BB3DD5500B39158 /* EventsUITestsLaunchTests.swift */,
 			);
 			path = EventsUITests;
+			sourceTree = "<group>";
+		};
+		9D7358952BB3E0D800B39158 /* EventCell */ = {
+			isa = PBXGroup;
+			children = (
+				9D7358A22BB44CE800B39158 /* EventTableViewCell.swift */,
+				9D7358A32BB44CE800B39158 /* EventTableViewCell.xib */,
+			);
+			path = EventCell;
+			sourceTree = "<group>";
+		};
+		9D7358A62BBA9BA600B39158 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9D7358932BB3DEDC00B39158 /* Constants.swift */,
+				9D7358A72BBA9BB100B39158 /* NetworkManager.swift */,
+				9D7358AC2BBAA5F100B39158 /* NetworkManagerProtocol.swift */,
+				9DCA36492BBAF3FD009C0E18 /* CoreDataManager.swift */,
+				9DDE155D2BBB8FDD00D4CF2B /* CoreDataManagerProtocol.swift */,
+				9D092AB92BBB289300A934C7 /* UIViewController + Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9D7358A92BBAA45B00B39158 /* EventList */ = {
+			isa = PBXGroup;
+			children = (
+				9D73589B2BB3E2E400B39158 /* EventListModel.swift */,
+				9D7358642BB3DD5200B39158 /* EventListViewController.swift */,
+				9DCA36592BBB1A4A009C0E18 /* EventsListViewController + TableView.swift */,
+				9DCA365B2BBB1AD4009C0E18 /* EventListViewController + SearchBar.swift */,
+				9D7358AA2BBAA47400B39158 /* EventListViewModel.swift */,
+				9D7358662BB3DD5200B39158 /* Main.storyboard */,
+			);
+			path = EventList;
+			sourceTree = "<group>";
+		};
+		9DCA36532BBB14DD009C0E18 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				9DCA36542BBB14EA009C0E18 /* MockNetworkManager.swift */,
+				9DDE155B2BBB8FA100D4CF2B /* MockCoreDataManager.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		9DCA36582BBB18B9009C0E18 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				9DCA36452BBAF3AC009C0E18 /* EventEntity+CoreDataClass.swift */,
+				9DCA36462BBAF3AC009C0E18 /* EventEntity+CoreDataProperties.swift */,
+				9D7358692BB3DD5200B39158 /* Events.xcdatamodeld */,
+			);
+			path = Persistance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +247,10 @@
 			dependencies = (
 			);
 			name = Events;
+			packageProductDependencies = (
+				9D73589E2BB4458500B39158 /* SDWebImage */,
+				9D7358A02BB4458500B39158 /* SDWebImageMapKit */,
+			);
 			productName = Events;
 			productReference = 9D73585D2BB3DD5200B39158 /* Events.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +323,9 @@
 				Base,
 			);
 			mainGroup = 9D7358542BB3DD5200B39158;
+			packageReferences = (
+				9D73589D2BB4453300B39158 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 9D73585E2BB3DD5200B39158 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D7358A52BB44CE800B39158 /* EventTableViewCell.xib in Resources */,
 				9D7358702BB3DD5400B39158 /* LaunchScreen.storyboard in Resources */,
 				9D73586D2BB3DD5400B39158 /* Assets.xcassets in Resources */,
 				9D7358682BB3DD5200B39158 /* Main.storyboard in Resources */,
@@ -262,9 +371,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D73586B2BB3DD5200B39158 /* Events.xcdatamodeld in Sources */,
-				9D7358652BB3DD5200B39158 /* ViewController.swift in Sources */,
+				9DCA365A2BBB1A4A009C0E18 /* EventsListViewController + TableView.swift in Sources */,
+				9DDE155E2BBB8FDD00D4CF2B /* CoreDataManagerProtocol.swift in Sources */,
+				9DCA36552BBB14EA009C0E18 /* MockNetworkManager.swift in Sources */,
+				9D7358AD2BBAA5F100B39158 /* NetworkManagerProtocol.swift in Sources */,
+				9D7358652BB3DD5200B39158 /* EventListViewController.swift in Sources */,
+				9DCA36472BBAF3AC009C0E18 /* EventEntity+CoreDataClass.swift in Sources */,
 				9D7358612BB3DD5200B39158 /* AppDelegate.swift in Sources */,
-				9D7358632BB3DD5200B39158 /* SceneDelegate.swift in Sources */,
+				9D7358A82BBA9BB100B39158 /* NetworkManager.swift in Sources */,
+				9DCA364A2BBAF3FD009C0E18 /* CoreDataManager.swift in Sources */,
+				9D7358A42BB44CE800B39158 /* EventTableViewCell.swift in Sources */,
+				9D092ABA2BBB289300A934C7 /* UIViewController + Extension.swift in Sources */,
+				9D7358AB2BBAA47400B39158 /* EventListViewModel.swift in Sources */,
+				9D73589C2BB3E2E400B39158 /* EventListModel.swift in Sources */,
+				9DCA36482BBAF3AC009C0E18 /* EventEntity+CoreDataProperties.swift in Sources */,
+				9DCA365C2BBB1AD4009C0E18 /* EventListViewController + SearchBar.swift in Sources */,
+				9DDE155C2BBB8FA100D4CF2B /* MockCoreDataManager.swift in Sources */,
+				9D7358942BB3DEDC00B39158 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +395,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D73587B2BB3DD5500B39158 /* EventsTests.swift in Sources */,
+				9DCA36522BBB1468009C0E18 /* NetworkManagerTests.swift in Sources */,
+				9DCA36572BBB1801009C0E18 /* EventTableViewCellTests.swift in Sources */,
+				9D73587B2BB3DD5500B39158 /* EventListViewControllerTests.swift in Sources */,
+				9DCA36502BBB0D8E009C0E18 /* CoreDataManagerTests.swift in Sources */,
+				9DCA364C2BBB0C6C009C0E18 /* EventListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,6 +738,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9D73589D2BB4453300B39158 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9D73589E2BB4458500B39158 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D73589D2BB4453300B39158 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		9D7358A02BB4458500B39158 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D73589D2BB4453300B39158 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		9D7358692BB3DD5200B39158 /* Events.xcdatamodeld */ = {
